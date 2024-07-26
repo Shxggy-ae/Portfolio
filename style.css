@@ -409,6 +409,56 @@ section {
   .email-icon {
     height: 2.5rem;
   }
+
+  #contactForm{
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  h1 {
+      text-align: center;
+  }
+  
+  form {
+      max-width: 500px;
+      margin: 0 auto;
+  }
+  
+  .form-group {
+      margin-bottom: 15px;
+  }
+  
+  label {
+      display: block;
+      margin-bottom: 5px;
+  }
+  
+  input, textarea {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+  }
+  
+  button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+  }
+  
+  button:hover {
+      background-color: #45a049;
+  }
+  
+  .error-message {
+      color: red;
+      font-size: 12px;
+      display: none;
+  }
+  }
   
   /* FOOTER SECTION */
   
